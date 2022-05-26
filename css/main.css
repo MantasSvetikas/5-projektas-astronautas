@@ -38,18 +38,34 @@
             float: left;
         }
 
-        h1 {
+       main h1 {
             margin: 0;
             font-size: 60px;
             font-weight: normal;
         }
 
-        h2 {
+       main h2 {
 
         }
-        main p {
-            color: ;
+
+        main hr {
+            width: 100px;
+            float: left;
+            height: 4px;
+            background-color: #648;
+            border-radius: 2px;
+            border: none;
+            margin: 0;
         }
+
+        main p {
+            display: inline-block;
+            color: #777;
+            width: 100%;
+           
+        }
+
+
         main a{
             padding: 10px;
             padding-left: 30px;
