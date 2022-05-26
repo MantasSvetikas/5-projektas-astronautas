@@ -28,6 +28,9 @@
         line-height: 20px;
         }
 
+        nav > a:hover {
+            text-decoration: underline;
+        }
         nav > a:first-child {
             background-color: red;
             margin-left: 0%;
@@ -81,8 +84,13 @@
          main > img {
             width: 55%;
             float: right;
-     
+            transition: all 1s;
  }
+    main > img:hover {
+        transform: rotate(70deg);
+       
+        
+    }
 
  footer div {
      float: left;
@@ -104,6 +112,11 @@
 
 footer div > a + a {
     margin-left: 10px;
+}
+
+footer div > a:hoover {
+    color #648
+
 }
 
  footer p {
